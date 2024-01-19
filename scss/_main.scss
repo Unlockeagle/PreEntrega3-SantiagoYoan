@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@font-face {
+  font-family: 'Gambarino-Regular';
+  src: url('../fonts/Gambarino-Regular.woff2') format("woff2"), url('../fonts/Gambarino-Regular.woff') format("woff"), url('../fonts/Gambarino-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Gambarino-Regular', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #02290ee7;
+  background-image: url(../img/bg-001.jpg);
+  background-repeat: repeat;
+  background-blend-mode: soft-light;
+}

@@ -1,0 +1,49 @@
+/* Inicio titulos del article */
+
+.title__menu {
+    margin-top: 4px;
+    font-size: 3rem;
+  
+    h3 {
+      font-size: 5rem;
+    }
+  
+  }
+  
+  .title__entrada {
+    span {
+      position: relative;
+    }
+  
+    p span {
+      &::before {
+        content: "";
+        background-color: $color-blanco;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 80%;
+        height: 5%;
+        margin: 0px 200px 15px 140px;
+        border-radius: 2px;
+        z-index: 1;
+      }
+  
+      &::after {
+        content: "";
+        background-color: $color-blanco;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        height: 5%;
+        margin: 0px 140px 15px 200px;
+        border-radius: 2px;
+        z-index: 1;
+      }
+    }
+  }
+  
+  /* Fin Nombre del menu  */
+  

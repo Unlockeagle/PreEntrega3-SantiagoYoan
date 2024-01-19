@@ -1,0 +1,65 @@
+@media (width >= 768px) {
+    .hero {
+      width: 90%;
+    }
+  
+    .hero__c img {
+      height: 400px;
+      object-fit: cover;
+    }
+  
+    .hero {
+      h1 {
+        font-size: 7vw;
+      }
+  
+      p {
+        font-size: 2.2vw;
+      }
+    }
+  
+    .menu {
+      width: 80%;
+    }
+  
+    .card__menu {
+      h5 {
+        font-size: 2vw;
+      }
+  
+      p {
+        font-size: 1vw;
+      }
+  
+      img {
+        width: auto;
+        height: 200px;
+      }
+    }
+  
+    .platos__descripcion {
+      h3 {
+        font-size: 1.5vw;
+      }
+  
+      p {
+        font-size: 1vw;
+      }
+    }
+  }
+  
+  @media (width >= 1024px) {
+    .hero {
+      width: 100%;
+    }
+  
+    .hero__carousel {
+      height: 500px;
+    }
+  
+    .hero__c img {
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+  

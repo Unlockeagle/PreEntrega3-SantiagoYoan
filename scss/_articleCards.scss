@@ -1,0 +1,41 @@
+/* Menu especial */
+
+.card__especial {
+    color: $color-blanco;
+    border: $border-1;
+    background-color: $color-fondo-cards;
+    object-fit: cover;
+    transform-origin: 0 0;
+    overflow: hidden;
+  
+    h5 {
+      font-size: 5rem;
+    }
+  
+    p {
+      font-size: 2.5rem;
+      color: $color-blanco;
+  
+      small {
+        font-size: 2rem;
+        color: $color-gris;
+      }
+    }
+  }
+  
+  .cardsp__img {
+    object-fit: contain;
+    transform-origin: 0 0;
+    overflow: hidden;
+  
+    img {
+      transition: transform .25s, visibility .25s ease-in;
+  
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+      }
+    }
+  }
+  
+  /* Menu especial */

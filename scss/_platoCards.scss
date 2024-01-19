@@ -1,0 +1,50 @@
+/* Inicio platos del menu */
+
+.conatiner__platos {
+    width: 100%;
+  }
+  
+  .card__platos {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 140px;
+    background-color: $color-fondo-cards;
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+    border: $border-1;
+  }
+  
+  .platos__img {
+    width: 100%;
+  
+    img {
+      width: 70px;
+    }
+  }
+  
+  .platos__descripcion {
+    width: 60%;
+  
+    h3 {
+      font-size: 3vw;
+      font-weight: bolder;
+      text-align: start;
+      color: $color-blanco;
+    }
+  
+    p {
+      font-size: 2.2vw;
+      color: $color-gris;
+      text-align: start;
+    }
+  }
+  
+  .card__platos span {
+    background-color: $color-gris;
+    color: black;
+    padding: 2px 12px;
+    border-radius: 20px;
+  }
+  
+  /* Fin platos del menu */
