@@ -24,6 +24,13 @@ body {
 .navbar {
   background-color: #052b15;
 }
+.navbar a {
+  margin-top: 5px;
+}
+.navbar a .logo {
+  width: 40px;
+  margin-right: 10px;
+}
 
 .nav-link {
   font-size: 2rem;
@@ -57,6 +64,9 @@ body {
 }
 
 .hero__text h1 {
+  font-size: 10vw;
+}
+.hero__text h2 {
   font-size: 10vw;
 }
 .hero__text p {
@@ -93,7 +103,7 @@ body {
   transform: scale(1.5);
 }
 
-.card__menu h5 {
+.card__menu h4 {
   font-size: 4vw;
   font-weight: bold;
   text-align: start;
@@ -110,6 +120,15 @@ body {
   border: #fafafa solid 1px;
   background-color: rgba(241, 241, 241, 0.0941176471);
 }
+.card__menu:hover {
+  box-shadow: -3px 3px 3px 0px rgba(136, 136, 136, 0.3647058824);
+}
+
+.card__img {
+  object-fit: cover;
+  overflow: hidden;
+  height: 125px;
+}
 
 /* Fin Cards de menu */
 /* Inicio titulos del article */
@@ -123,6 +142,7 @@ body {
 
 .title__entrada span {
   position: relative;
+  margin: 0px 20px;
 }
 .title__entrada p span::before {
   content: "";
@@ -160,7 +180,7 @@ body {
   transform-origin: 0 0;
   overflow: hidden;
 }
-.card__especial h5 {
+.card__especial h4 {
   font-size: 5rem;
 }
 .card__especial p {
@@ -250,21 +270,23 @@ body {
   .hero h1 {
     font-size: 7vw;
   }
+  .hero h2 {
+    font-size: 7vw;
+  }
   .hero p {
     font-size: 2.2vw;
   }
   .menu {
     width: 80%;
   }
-  .card__menu h5 {
+  .card__menu h4 {
     font-size: 2vw;
   }
   .card__menu p {
     font-size: 1vw;
   }
   .card__menu img {
-    width: auto;
-    height: 200px;
+    width: 100%;
   }
   .platos__descripcion h3 {
     font-size: 1.5vw;

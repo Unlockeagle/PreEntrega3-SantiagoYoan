@@ -4,6 +4,16 @@
     color: $color-blanco;
     border: $border-1;
     background-color: $color-fondo-cards;
+    
+    &:hover {
+      box-shadow: -3px 3px 3px 0px $color-shadow;
+    }
+  }
+  
+  .card__img {  
+    object-fit: cover;
+    overflow: hidden;
+    height: 125px;    
   }
   
   /* Fin Cards de menu */
