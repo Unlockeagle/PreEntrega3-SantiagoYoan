@@ -1,0 +1,12 @@
+@mixin dFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin tituloweb{
+    font-size: 8vw;
+    align-items: center;
+    text-align: center;
+   
+  }

@@ -1,37 +1,36 @@
 /* Inicio Caroulsel */
 .hero__carousel {
-    width: 100%;
-  }
-  
+
+  width: 100%;  
+
   .hero {
-    margin-top: 80px;
     width: 100%;
   }
+}
   
-  .hero__img {
+.hero__img {
     img {
       border: $border-1;
     }
   
     filter: brightness(0.5);
     object-fit: contain;
-  }
+}
+ 
   
-  .hero__text {
-    h1 {
-      font-size: 10vw;
-    }
+.hero__text {
     
-    h2 {
-      font-size: 10vw;
+  h2 {
+    font-size: 8vw;
 
-    }
-    p {
-      font-size: 3.5vw;
-    }
+  }
+  p {
+    font-size: 3vw;
+    text-wrap: pretty;
+  }
 
   
-  }
+}
 
 
 /* Fin Caroulsel */

@@ -1,69 +1,72 @@
+@media (width >=768px) {
+  .titulo__web {
+    margin-top: 100px;
+  }
 
-@media (width >= 768px) {
-    .hero {
-      width: 90%;
-    }
-  
-    .hero__c img {
-      height: 400px;
-      object-fit: cover;
-    }
-  
-    .hero {
-      h1 {
-        font-size: 7vw;
-      }
+  .hero {
+    width: 90%;
+  }
 
-      h2 {
-        font-size: 7vw;
-      }
-  
-      p {
-        font-size: 2.2vw;
-      }
+  .hero__c img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .hero {
+    h1 {
+      font-size: 7vw;
     }
-  
-    .menu {
-      width: 80%;
+
+    h2 {
+      font-size: 7vw;
     }
-  
-    .card__menu {
-      h4 {
-        font-size: 2vw;
-      }
-  
-      p {
-        font-size: 1vw;
-      }
-  
-      img {
-        width: 100%;
-      }
-    }
-  
-    .platos__descripcion {
-      h3 {
-        font-size: 1.5vw;
-      }
-  
-      p {
-        font-size: 1vw;
-      }
+
+    p {
+      font-size: 2.2vw;
     }
   }
-  
-  @media (width >= 1024px) {
-    .hero {
+
+  .menu {
+    width: 80%;
+  }
+
+  .card__menu {
+    h4 {
+      font-size: 2vw;
+    }
+
+    p {
+      font-size: 1vw;
+    }
+
+    img {
       width: 100%;
     }
-  
-    .hero__carousel {
-      height: 500px;
+  }
+
+  .platos__descripcion {
+    h3 {
+      font-size: 1.5vw;
     }
-  
-    .hero__c img {
-      height: 500px;
-      object-fit: cover;
+
+    p {
+      font-size: 1vw;
     }
   }
-  
+}
+
+@media (width >=1024px) {
+  .hero {
+    margin-top: 40;
+    width: 100%;
+  }
+
+  .hero__carousel {
+    height: 500px;
+  }
+
+  .hero__c img {
+    height: 500px;
+    object-fit: cover;
+  }
+}

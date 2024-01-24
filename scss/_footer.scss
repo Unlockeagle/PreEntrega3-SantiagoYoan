@@ -3,7 +3,11 @@
 .footer__container {
     width: 100%;
     background-color: $color-fondo;
-  }
+}
+
+.redes__icon {
+  @include dFlex
+}
   
   /* Fin footer */
   
