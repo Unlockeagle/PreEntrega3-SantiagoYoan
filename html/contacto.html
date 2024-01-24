@@ -185,22 +185,22 @@
 
     <div class="mb-3" id="formulario">
       <label for="exampleFormControlInput1" class="form-label link-light fs-4">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <input type="email" class="form-control fs-4" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
     <div class="mb-3" id="formulario">
       <label for="exampleFormControlInput1" class="form-label link-light fs-4">Nombre</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      <input type="email" class="form-control fs-4" id="exampleFormControlInput1" placeholder="name">
     </div>
     <div class="mb-3">
       <label for="date" class="form-label link-light fs-4">Fecha de tu reserva</label>
-      <input type="date" class="form-control" name="date" id="date">
+      <input type="date" class="form-control fs-4" name="date" id="date">
     </div>
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label link-light fs-4">Mensaje</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+      <textarea class="form-control fs-4" id="exampleFormControlTextarea1" rows="3"
         placeholder="Escribe un mensaje"></textarea>
     </div>
-    <div class="col-auto">
+    <div class="col-auto col-md-4 container">
       <button type="submit" class="btn btn-warning mb-3 fs-4 d-inline-block w-100">Reserva ya!</button>
     </div>
 
@@ -215,7 +215,6 @@
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.025125441415!2d-68.01625922430064!3d10.259557068513324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805c43196b701d%3A0x3c78be87629cdf97!2sCarnicer%C3%ADa%20Inversiones%20Los%20Cu%C3%B1aos%2C%20C.A.!5e0!3m2!1ses!2sit!4v1704910141400!5m2!1ses!2sit"
         width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
-
     </div>
   </section>
 
@@ -232,62 +231,67 @@
   <!-- Fin titulos del menu -->
 
   <!-- Inicio Cards Menu -->
-  <section class="container-fluid justify-content-center menu mt-4">
-    <div class="row row-cols-2 row-cols-md-4 ">
+ <section class="container-fluid justify-content-center menu">
+  <div class="row row-cols-2 row-cols-md-4 ">
 
-      <div class="card__animated col">
-        <div class="card__menu card rounded-4 text-start p-3">
+    <div class="col">
+      <div class="card__animated card__menu card rounded-4 text-start p-3">
+        <div class="card__img ">            
           <img src="../img/arepas_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
-            alt="...">
-          <h5 class="card-title">Menú Venezolano</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="../index.html" class="nav-link d-inline-flex justify-content-center">
-            <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
-          </a>
+          alt="Arepas Venezolanas">
         </div>
-      </div>
-
-      <div class="card__animated col">
-        <div class="card card__menu rounded-4 text-start p-3">
-          <img src="../img/mexco_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
-            alt="...">
-          <h5 class="card-title">Menú Mexicano</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="../html/mexicano.html" class="nav-link d-inline-flex justify-content-center">
-            <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
-          </a>
-        </div>
-      </div>
-      <div class="card__animated col">
-        <div class="card card__menu rounded-4 text-start p-3">
-          <img src="../img/plato_navideno.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
-            alt="...">
-          <h5 class="card-title">Especial Navideño</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="../html/especial.html" class="nav-link d-inline-flex justify-content-center">
-            <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
-          </a>
-        </div>
-      </div>
-      <div class="card__animated col">
-        <div class="card card__menu rounded-4 text-start p-3">
-          <img src="../img/cocteles_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
-            alt="...">
-          <h5 class="card-title">Cócteles</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="../html/cocteles.html" class="nav-link d-inline-flex justify-content-center">
-            <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
-          </a>
-        </div>
+        <h4 class="card-title">Menú Venezolano</h4>
+        <p>Descubre la riqueza culinaria </p>
+        <a href="../html/venezolano.html" class="nav-link d-inline-flex justify-content-center">
+          <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
+        </a>
       </div>
     </div>
-  </section>
-  <!-- Inicio Cards Menu -->
 
+    <div class="card__animated col">
+      <div class="card card__menu rounded-4 text-start p-3">
+        <div class="card__img">
+          <img src="../img/mexco_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
+          alt="Tacos mexicanos">
+        </div>
+        <h4 class="card-title">Menú Mexicano</h4>
+        <p>Sumérgete en la auténtica cocina</p>
+        <a href="../html/mexicano.html" class="nav-link d-inline-flex justify-content-center">
+          <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
+        </a>
+      </div>
+    </div>
 
-
-
-
+    <div class="card__animated col">
+      <div class="card card__menu rounded-4 text-start p-3">
+        <div class="card__img">
+          <img src="../img/plato_navideno.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
+          alt="Plato navideño venezolano.">
+        </div>
+        <h4 class="card-title">Especial Navideño</h4>
+        <p>Plato tipico navideño Venezolano</p>
+        <a href="../html/especial.html" class="nav-link d-inline-flex justify-content-center">
+          <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
+        </a>
+      </div>
+    </div>
+    <div class="card__animated col">
+      <div class="card card__menu rounded-4 text-start p-3">
+        <div class="card__img">
+          
+          <img src="../img/cocteles_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
+          alt="Cócteles">
+        </div>
+        <h4 class="card-title">Cócteles</h4>
+        <p>Explora la mezcla perfecta de sabores</p>
+        <a href="../html/cocteles.html" class="nav-link d-inline-flex justify-content-center">
+          <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inicio Cards Menu -->
 
   <!-- Inicio del footer -->
   <footer class="footer__container mt-5 py-5">
