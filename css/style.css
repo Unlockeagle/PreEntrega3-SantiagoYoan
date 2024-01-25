@@ -262,6 +262,18 @@ body {
 }
 
 /* Fin platos del menu */
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 100;
+  transition: 0.2s linear;
+}
+
+.whatsapp:hover {
+  transform: scale(1.2);
+}
+
 /* Inicio footer */
 .footer__container {
   width: 100%;
