@@ -315,10 +315,6 @@ body {
   }
 }
 @media (width >= 1024px) {
-  .hero {
-    margin-top: 40;
-    width: 100%;
-  }
   .hero__carousel {
     height: 500px;
   }
