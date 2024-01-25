@@ -16,7 +16,7 @@ html {
 
 body {
   background-color: rgba(2, 41, 14, 0.9058823529);
-  background-image: url(../img/bg-001.jpg);
+  background-image: url(../img/bg-001.webp);
   background-repeat: repeat;
   background-blend-mode: soft-light;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .slide__nav {
-  background-image: url(../img/bg-001.jpg);
+  background-image: url(../img/bg-001.webp);
 }
 
 /* Inicio Caroulsel */
