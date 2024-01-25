@@ -186,10 +186,10 @@ body {
   overflow: hidden;
 }
 .card__especial h4 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .card__especial p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #e6e6e6;
 }
 .card__especial p small {
